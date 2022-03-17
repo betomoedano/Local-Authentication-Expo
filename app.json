@@ -17,7 +17,10 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSFaceIDUsageDescription": "Face ID is used to authenticate the user."
+      }
     },
     "android": {
       "adaptiveIcon": {
